@@ -1,7 +1,6 @@
 package com.allsopg.game;
 
-import com.allsopg.game.actor.AnimatedSprite;
-import com.allsopg.game.actor.BonusSprite;
+import com.allsopg.game.actor.AnimationMulti;
 import com.allsopg.game.utility.Constants;
 import com.allsopg.game.utility.UniversalResource;
 import com.badlogic.gdx.ApplicationAdapter;
@@ -19,8 +18,7 @@ public class MyGdxGame extends ApplicationAdapter {
     private OrthographicCamera camera;
     private Viewport view;
     private SpriteBatch batch;
-    private AnimatedSprite rings_1;
-    private BonusSprite bp;
+	private AnimationMulti bp;
     private float animationTime;
 	@Override
 	public void create () {
@@ -29,7 +27,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		batch = new SpriteBatch();
 		Texture small = new Texture(Gdx.files.internal("smallSize.png"));
 		Texture medium = new Texture(Gdx.files.internal("mediumSize.png"));
-        bp = new BonusSprite("gfx/animation/anim_assets.atlas",medium,
+        bp = new AnimationMulti("gfx/idle/idle_assets.atlas", "gfx/animation/anim_assets.atlas", medium,
                 new Vector2(Constants.SCENE_WIDTH/2,Constants.SCENE_HEIGHT/2), Animation.PlayMode.LOOP);
         bp.destroyRoutine();
 	}

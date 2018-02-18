@@ -10,5 +10,5 @@ public class Constants {
     public static final float SCENE_HEIGHT = 720f;
     public static final float VIEWPORT_WIDTH = 5.0f;
     public static final float VIEWPORT_HEIGHT = 5.0f;
-    public static final float FRAME_DURATION = 1.0f / 12.0f;
+    public static final float FRAME_DURATION = 1.0f / 2.0f;
 }
