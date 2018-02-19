@@ -7,6 +7,7 @@ import aurelienribon.tweenengine.TweenManager;
  * Created by gja10 on 13/11/2017.
  */
 
+// Used to set up the UniversalResource and tweenManager
 public class UniversalResource {
     public TweenManager tweenManager;
 

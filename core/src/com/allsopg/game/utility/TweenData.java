@@ -7,6 +7,7 @@ import com.badlogic.gdx.math.Vector2;
  * Created by gja10 on 13/11/2017.
  */
 
+// Used to set up the functions of the tween i.e. Position, Scale, Colour, Rotation
 public class TweenData {
     private Vector2 xy;
     private Color colour;

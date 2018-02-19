@@ -8,6 +8,7 @@ import aurelienribon.tweenengine.TweenAccessor;
  * Created by gja10 on 13/11/2017.
  */
 
+// Used to set up the functions of the tween i.e. Position, Scale, Colour, Rotation
 public class TweenDataAccessor implements TweenAccessor<TweenData> {
     public static final int TYPE_POS = 1;
     public static final int TYPE_SCALE = 2;
