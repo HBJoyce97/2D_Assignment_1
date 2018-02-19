@@ -59,7 +59,7 @@ public class AnimationMulti extends Sprite {
     public void update(float deltaTime){
         this.setRegion((TextureAtlas.AtlasRegion) animation.getKeyFrame(deltaTime)); // Updates the region every frame
 
-        // Sets up the following tween data to be used in the tween
+        // Updates the following tween data to be used in the tween
         this.setX(tweenData.getXY().x);
         this.setY(tweenData.getXY().y);
         this.setColor(tweenData.getColour());
