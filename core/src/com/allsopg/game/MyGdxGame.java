@@ -20,7 +20,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 public class MyGdxGame extends ApplicationAdapter {
     private OrthographicCamera camera;
     private Viewport view;
-    private SpriteBatch batch;
+    private SpriteBatch batch; // Variable used to initialize the batch
 	private AnimationMulti bp; // Variable used to set up the animation change
     private float animationTime;
 	private BitmapFont font; // Variable used to initialize and draw the bitmap font
