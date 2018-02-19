@@ -18,11 +18,11 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class MyGdxGame extends ApplicationAdapter {
-    private OrthographicCamera camera;
-    private Viewport view;
+    private OrthographicCamera camera; // Variable used to set up the camera
+    private Viewport view; // Variable used to set up the viewport
     private SpriteBatch batch; // Variable used to initialize the batch
 	private AnimationMulti bp; // Variable used to set up the animation change
-    private float animationTime;
+    private float animationTime; // Variable used to set up the frame timing
 	private BitmapFont font; // Variable used to initialize and draw the bitmap font
 	private String text; // Variable used to set the String text for the font
 	private static GlyphLayout glyphLayout = new GlyphLayout(); // Initializes a new glyphlayout
